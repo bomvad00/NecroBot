@@ -134,7 +134,6 @@ namespace PoGo.NecroBot.Logic.Interfaces.Configuration
         bool UseSnipeLimit { get; }
         bool UsePokeStopLimit { get; }
         bool UseCatchLimit { get; }
-        bool UseNearActionRandom { get; }
         ICollection<KeyValuePair<ItemId, int>> ItemRecycleFilter { get; }
 
         ICollection<PokemonId> PokemonsToEvolve { get; }
